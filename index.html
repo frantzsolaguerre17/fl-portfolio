@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <title>FL PortFolio</title>
+</head>
+
+<body>
+
+<a href="https://api.whatsapp.com/send?phone=+50937405233" class="btn_whatssapp" target="_blank">
+    <i class='bx bxl-whatsapp'></i>
+</a>
+
+
+<!--HEADER-->
+<header class="header">
+    <a href="#home" class="logo">Frantzso Laguerre</a>
+
+    <!--
+    <label class="navbar-brand">F<span style="color: orange; font-family: initial">L</span></label>
+-->
+
+    <!--NAVBAR-->
+
+    <nav class="navbar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#service" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="language">
+        <div class="language-selected">
+            English
+        </div>
+        <ul>
+            <li> <a href="#" class="en">English</a></li>
+            <li> <a href="#" class="fr">Francais</a> </li>
+            <li> <a href="#" class="ht">Kreyol</a> </li>
+        </ul>
+    </div>
+
+    <img src="images/moon.png" id="icon">
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <div class="progress-bar">
+        <div class="progress-line"></div>
+    </div>
+
+</header>
+
+
+
+  <!--HOME SECTION-->
+<section class="home" id="home">
+  <div class="home-img">
+   <img src="images/fl3.png" alt="Profil Image">
+  </div>
+
+    <div class="home-content">
+        <h3>Hello, my name is</h3>
+        <h1>Frantzso Laguerre</h1>
+        <h3><span class="im_text">I'm a </span><span class="mutliple-text">Web Developer</span></h3>
+        <p id="intro_text">Seasoned software developer, with solid training and proven skills in the development of web
+            and mobile applications, I demonstrate great autonomy and effective collaboration within a team.
+            My responsibility, my ability to work under pressure and my flexibility are all assets that I bring to bear.
+        </p>
+
+        <div class="social-media">
+            <a href="https://web.facebook.com/profile.php?id=100084007382279" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://bitbucket.org/Frantzso" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/frantzso-laguerre-32aa00192" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.youtube.com/@FLTechnologySolutions" target="_blank"><i class='bx bxl-youtube' ></i></a>
+        </div>
+        <a href="download/CV_Developpeur_logiciel_Frantzso_Laguerre.pdf" class="btn" target="_blank" download>Download CV</a>
+        <a href="#" class="btn" id="btn">Hire me</a>
+
+    </div>
+
+</section>
+
+
+
+  <!--ABOUT SECTION-->
+<section class="about" id="about">
+    <div class="about-content">
+        <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">About <span class="span_me">Me</span></h2>
+        <h3 class="wow fadeInUp" data-wow-delay="1.8s"> <span class="span_yellow">I'm a</span> <span class="span_software_dev"> Software Developer</span> </h3>
+        <p class="wow fadeInUp" data-wow-delay="1.8s">
+            I’m Frantzso Laguerre, a seasoned software developer with comprehensive training and a proven track record
+            in web and mobile application development. I consistently demonstrate strong independence in my work while
+            excelling in team-based collaborations. My commitment to responsibility, combined with the ability to
+            maintain focus and performance under high-pressure situations, exemplifies my resilience and effectiveness.
+            Additionally, my adaptability allows me to seamlessly navigate complex, multi-faceted projects, ensuring
+            high-quality results even when faced with tight deadlines. <br> <br>
+
+            I bring a proactive mindset to my work, always striving to learn and integrate new technologies, while my
+            attention to detail ensures that every aspect of the project is thoroughly considered. My excellent
+            problem-solving abilities, paired with a passion for innovation and continuous improvement, enable me to
+            tackle challenges with confidence and deliver solutions that exceed expectations. This combination of
+            technical expertise, strong work ethic, and forward-thinking vision makes me a valuable asset to any
+            development team or project.
+
+        </p>
+       <!-- <a href="#" class="btn">Read More</a>-->
+    </div>
+
+    <div class="about-img wow flipInY" data-wow-delay="1.3s">
+      <img src="images/lf.png" alt="About image">
+    </div>
+
+</section>
+
+
+
+  <!--PORTFOLIO SECTION-->
+<section class="portfolio" id="portfolio">
+
+    <main class="mainContainer">
+        <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">Portfo<span>lio</span></h2>
+
+        <h3 class="wow fadeInUp" data-wow-delay="1.8s"><span style="color: orange">Some</span> Of My  Works</h3>
+
+        <!--  *****  Buttons Section Starts  *****  -->
+        <div class="button-group wow fadeInUp" data-wow-delay="1.8s">
+            <button class="button active" data-filter="*">All</button>
+            <button class="button" data-filter=".design">Mobile</button>
+            <button class="button" data-filter=".development">Desktop</button>
+            <button class="button" data-filter=".logo">Web</button>
+        </div>
+
+        <div class="gallery">
+            <!--  *****  Card 1 Starts  *****  -->
+            <div class="item design wow flipInY" data-wow-delay="1.1s">
+                <img src="images/desktopapp.jpg">
+                <div class="overlay">
+                    <a href="#">SYSTEME DE GESTION PRET</a>
+                </div>
+            </div>
+
+            <div class="item design wow flipInY" data-wow-delay="1.2s">
+                <img src="images/LaSeve.png">
+                <div class="overlay">
+                    <a href="#">SYSTEME DE GESTION INSTITUT LA SEVE</a>
+                </div>
+            </div>
+
+            <div class="item development wow flipInY" data-wow-delay="1.3s">
+                <img src="images/backg.jpg">
+                <div class="overlay">
+                </div>
+            </div>
+
+            <div class="item development wow flipInY" data-wow-delay="1.4s">
+                <img src="images/backg.jpg">
+                <div class="overlay">
+                </div>
+            </div>
+
+            <div class="item development wow flipInY" data-wow-delay="1.5s">
+                <img src="images/desktopapp.jpg">
+                <div class="overlay">
+                </div>
+            </div>
+
+            <div class="item logo wow flipInY" data-wow-delay="1.6s">
+                <img src="images/LaSeve.png">
+                <div class="overlay">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</section>
+
+
+
+<!--RESUME SECTION-->
+<section class="resume" id="resume">
+    <div class="container">
+        <h2 class="heading">Resu<span style="color: white">me</span></h2>
+        <h3 class="wow fadeInUp" data-wow-delay="1.8s">Education &<span> Experience </span></h3>
+        <main class="row">
+
+            <div class="col">
+
+                <header class="title">
+                    <h4>EDUCATION</h4>
+                </header>
+
+                <div class="contents">
+
+                    <div class="box">
+                        <h4>2006 - 2013</h4>
+                        <h3>College Mixte Lamartiniere</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                            Nullam ac suscipit ex.
+                        </p>
+                    </div>
+
+
+                    <div class="box">
+                        <h4>2013 - 2017</h4>
+                        <h3>UNITECH (Universite Technologie d'Haiti)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                            Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
+                            dapibus eget in urna.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col">
+                <header class="title">
+                    <h4>EXPERIENCE</h4>
+                </header>
+
+                <div class="contents">
+                    <div class="box">
+                        <h4>2019 - 2022</h4>
+                        <h3>E-Management</h3>
+                        <p>
+                            E-Management is a company specializing in the sale of IT services by creating
+                            computer systems that can help entrepreneurs better manage their business.
+                        </p>
+                    </div>
+
+
+                    <div class="box">
+                        <h4>2023 - 2024</h4>
+                        <h3>Solutions S.A</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                            Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
+                            dapibus eget in urna.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</section>
+
+
+
+<!--SKILLS SECTION-->
+<section class="skills" id="skills">
+
+   <div class="main-title">
+       <h2 class="heading">My Ski<span>lls</span></h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+           Nullam ac suscipit ex, at tincidunt mi.
+       </p>
+   </div>
+
+       <div class="row">
+
+           <!--Programming Skills Column-->
+           <div class="col">
+               <div class="sub-title">
+                   <h2>Programming Skills</h2>
+               </div>
+
+               <div class="skills-container">
+                   <div class="skill">
+                       <div class="subject">C#</div>
+                       <div class="progress-bar" value="70%">
+                           <div class="progress-line" style="max-width: 70%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">HTML/CSS</div>
+                       <div class="progress-bar" value="95%">
+                           <div class="progress-line" style="max-width: 95%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">JAVA</div>
+                       <div class="progress-bar" value="70%">
+                           <div class="progress-line" style="max-width: 70%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">JAVASCRIPT</div>
+                       <div class="progress-bar" value="50%">
+                           <div class="progress-line" style="max-width: 50%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">Python</div>
+                       <div class="progress-bar" value="30%">
+                           <div class="progress-line" style="max-width: 30%"></div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+
+
+           <!--DataBase Skills Column-->
+           <div class="col">
+               <div class="sub-title">
+                   <h2>DataBase Skills</h2>
+               </div>
+
+               <div class="skills-container">
+                  <div class="skill">
+                       <div class="subject">MySQL</div>
+                       <div class="progress-bar" value="80%">
+                           <div class="progress-line" style="max-width: 80%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">ORACLE</div>
+                       <div class="progress-bar" value="50%">
+                           <div class="progress-line" style="max-width: 50%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">SQLITE</div>
+                       <div class="progress-bar" value="60%">
+                           <div class="progress-line" style="max-width: 60%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">SQL SERVER</div>
+                       <div class="progress-bar" value="60%">
+                           <div class="progress-line" style="max-width: 60%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">POSTGRE SQL</div>
+                       <div class="progress-bar" value="82%">
+                           <div class="progress-line" style="max-width: 82%"></div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+
+
+           <!--DataBase Skills Column-->
+          <!-- <div class="col">
+               <div class="sub-title">
+                   <h2>Other Skills</h2>
+               </div>
+
+               <div class="skills-container">
+                   <div class="skill">
+                       <div class="subject">Git</div>
+                       <div class="progress-bar" value="80%">
+                           <div class="progress-line" style="max-width: 80%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">Android Programming</div>
+                       <div class="progress-bar" value="50%">
+                           <div class="progress-line" style="max-width: 50%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">SQLITE</div>
+                       <div class="progress-bar" value="60%">
+                           <div class="progress-line" style="max-width: 60%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">SQL SERVER</div>
+                       <div class="progress-bar" value="60%">
+                           <div class="progress-line" style="max-width: 60%"></div>
+                       </div>
+                   </div>
+
+                   <div class="skill">
+                       <div class="subject">POSTGRE SQL</div>
+                       <div class="progress-bar" value="82%">
+                           <div class="progress-line" style="max-width: 82%"></div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>-->
+
+       </div>
+</section>
+
+
+
+<!--SERVICES SECTION-->
+<section class="service" id="service">
+    <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">Servi<span>ces</span></h2>
+    <h3 class="wow fadeInUp" data-wow-delay="1.8s"><span style="color: orange">What</span> I <span> Offer </span></h3>
+
+    <div class="services-container">
+        <div class="services-box heading wow flipInY" data-wow-delay="1.2s">
+            <i class='bx bx-code-curly'></i>
+            <h3>Backend Development</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
+                dapibus eget in urna.
+            </p>
+<!--
+            <a href="#" class="btn">Read More</a>
+-->
+
+        </div>
+
+        <div class="services-box heading wow flipInY" data-wow-delay="1.3s">
+            <i class="bx bxl-android"></i>
+            <h3>Mobile Development</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
+                dapibus eget in urna.
+            </p>
+<!--
+            <a href="#" class="btn">Read More</a>
+-->
+
+        </div>
+
+        <div class="services-box heading wow flipInY" data-wow-delay="1.5s">
+            <i class="bx bx-code"></i>
+            <h3>Web Development</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
+                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
+                dapibus eget in urna.
+            </p>
+<!--
+            <a href="#" class="btn">Read More</a>
+-->
+        </div>
+    </div>
+</section>
+
+
+
+<!--CONTACT SECTION-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" name="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" name="email" placeholder="Email Subject">
+        </div>
+
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+
+<!--FOOTER SECTION-->
+<footer class="footer">
+    <div class="container">
+        <label class="brand">F<span style="color: black; font-family: initial">L</span></label>
+    </div>
+
+<div class="social">
+    <a href="#"><i class='bx bxl-facebook' ></i></a>
+    <a href="#"><i class='bx bxl-github' ></i></a>
+    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+    <a href="#"><i class='bx bxl-youtube' ></i></a>
+</div>
+
+<p class="copyright">
+    &copy; 2024 Frantzso Laguerre - Rights Reserved
+</p>
+
+<p class="copyright">
+    Created by Frantzso Laguerre
+</p>
+
+</footer>
+
+
+
+<!--TYPING LETTER ANIMATION LINK-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!--ISOTOPE FILTER LINK-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script src="javascript/script.js"></script>
+
+<!--WOW ANIMATION-->
+<script src="javascript/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>
