@@ -931,7 +931,7 @@ span{
 /*******************SERVICES********************/
 .service{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .service h2{
@@ -988,6 +988,7 @@ span{
 /*******************CONTACT********************/
 .contact{
     background: var(--snd-bg-color);
+    min-height: 90vh;
 }
 
 .contact h2{
