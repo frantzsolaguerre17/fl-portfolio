@@ -2642,20 +2642,80 @@ a.ht:before{
 
 
 
-/*BREAKPOINT 393PX*/
-@media (max-width: 393px) {
+/*BREAKPOINT 394PX*/
+@media (max-width: 394px) {
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -90px;
+    }
+
+    .about{
+        margin-bottom: -25px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -20px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    #skillsparagraph{
+        font-size: 1.9rem;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
 
 }
 
 
 
-/*BREAKPOINT 375PX*/
+/*BREAKPOINT 376PX*/
 @media (max-width: 376px) {
     .contact h2{
         margin-bottom: 3rem;
         color: var(--main-color);
         text-align: center;
         margin-top: -60px;
+    }
+
+    #skillsparagraph{
+        font-size: 1.9rem;
     }
 
     .service{
@@ -2694,7 +2754,7 @@ a.ht:before{
 
 
 /*BREAKPOINT 360PX*/
-@media (max-width: 360px) {
+@media (max-width: 361px) {
 
     .contact h2{
         margin-bottom: 3rem;
