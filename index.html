@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--<link rel="manifest" href="manifest.json">-->
+
     <title>FL PortFolio</title>
 </head>
 
@@ -27,10 +32,10 @@
 
     <!--NAVBAR-->
 
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
         <a href="#home" class="nav-link">Home</a>
         <a href="#about" class="nav-link">About me</a>
-        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <!-- <a href="#portfolio" class="nav-link">Portfolio</a>-->
         <a href="#resume" class="nav-link">Resume</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#service" class="nav-link">Services</a>
@@ -46,9 +51,10 @@
             <li> <a href="#" class="fr">Francais</a> </li>
             <li> <a href="#" class="ht">Kreyol</a> </li>
         </ul>
+
+        <img src="images/moon.png" id="icon" alt="">
     </div>
 
-    <img src="images/moon.png" id="icon">
 
     <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -60,29 +66,59 @@
 
 
 
-  <!--HOME SECTION-->
+<!--HOME SECTION-->
 <section class="home" id="home">
-  <div class="home-img">
-   <img src="images/fl3.png" alt="Profil Image">
-  </div>
+    <div class="home-img wow animate__heartBeat" data-wow-delay="1s">
+        <img id="profil_id" src="images/profilllllll.png" alt="Profil Image">
+    </div>
 
     <div class="home-content">
-        <h3>Hello, my name is</h3>
-        <h1>Frantzso Laguerre</h1>
-        <h3><span class="im_text">I'm a </span><span class="mutliple-text">Web Developer</span></h3>
-        <p id="intro_text">Seasoned software developer, with solid training and proven skills in the development of web
+        <h3 id="hello_im" class="animate__animated animate__fadeInUp">Hello, my name is</h3>
+        <h1 class="animate__animated animate__zoomIn">Frantzso Laguerre</h1>
+        <h3 class="im_text animate__animated animate__fadeInUp"><span id="im_text" >I'm a </span><span class="mutliple-text">Web Developer</span></h3>
+        <p id="intro_text" class="animate__animated animate__zoomIn">Seasoned software developer, with solid training and proven skills in the development of web
             and mobile applications, I demonstrate great autonomy and effective collaboration within a team.
             My responsibility, my ability to work under pressure and my flexibility are all assets that I bring to bear.
         </p>
 
-        <div class="social-media">
+        <div class="social-media animate__animated animate__fadeInUp">
             <a href="https://web.facebook.com/profile.php?id=100084007382279" target="_blank"><i class='bx bxl-facebook' ></i></a>
             <a href="https://bitbucket.org/Frantzso" target="_blank"><i class='bx bxl-github' ></i></a>
             <a href="https://www.linkedin.com/in/frantzso-laguerre-32aa00192" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://www.youtube.com/@FLTechnologySolutions" target="_blank"><i class='bx bxl-youtube' ></i></a>
+            <a href="https://www.youtube.com/@laguerrefrantzso4652" target="_blank"><i class='bx bxl-youtube' ></i></a>
         </div>
-        <a href="download/CV_Developpeur_logiciel_Frantzso_Laguerre.pdf" class="btn" target="_blank" download>Download CV</a>
-        <a href="#" class="btn" id="btn">Hire me</a>
+        <!--<a href="download/CV_Developpeur_logiciel_Frantzso_Laguerre.pdf" id="btn_download" class="btn wow fadeInLeft" data-wow-delay="1s" target="_blank" download>Download CV</a>-->
+
+        <div style="position: relative;">
+
+            <button id="btn_download" class="btn wow fadeInLeft" onclick="toggleDropdown()">Download CV</button>
+
+            <div id="cv-dropdown">
+                <a href="download/CV_DeveloppeurLogiciel_FrantzsoLaguerre_Francais.pdf" id="btn_cv_francais"  target="_blank" download>CV (French)</a>
+                <a href="download/CV_SoftwareDeveloper_FrantzsoLaguerre_Anglais.pdf" id="btn_cv_anglais" class="btn" target="_blank" download>CV (English)</a>
+            </div>
+
+            <a href="hire_me.html" class="btn btn wow fadeInRight" data-wow-delay="1s" id="btn">Hire me</a>
+        </div>
+
+        <div class="experience-stats">
+            <div class="stat-item wow fadeInLeft" data-wow-delay="2.5s">
+                <h2>+3</h2>
+                <p id="years_id">Years of <br> Experience</p>
+            </div>
+            <div class="stat-item wow fadeInLeft" data-wow-delay="2s">
+                <h2>+5</h2>
+                <p id="projects_id">Projects <br> Completed</p>
+            </div>
+            <div class="stat-item wow fadeInRight" data-wow-delay="2s">
+                <h2>+10</h2>
+                <p id="technology_id">Technologies <br> Mastered</p>
+            </div>
+            <div id="commit_id__" class="stat-item wow fadeInRight" data-wow-delay="2.5s">
+                <h2>+300</h2>
+                <p ID="commit_id">Code <br> Commits</p>
+            </div>
+        </div>
 
     </div>
 
@@ -90,12 +126,12 @@
 
 
 
-  <!--ABOUT SECTION-->
+<!--ABOUT SECTION-->
 <section class="about" id="about">
     <div class="about-content">
-        <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">About <span class="span_me">Me</span></h2>
-        <h3 class="wow fadeInUp" data-wow-delay="1.8s"> <span class="span_yellow">I'm a</span> <span class="span_software_dev"> Software Developer</span> </h3>
-        <p class="wow fadeInUp" data-wow-delay="1.8s">
+        <h2 class="heading wow fadeInUp" data-wow-delay="1.7s" id="about_id">About <span class="span_me">Me</span></h2>
+        <h3 class="wow fadeInUp" data-wow-delay="1.7s" id="ImSofwareEngineer_id"> <span class="span_yellow">I'm a</span> <span class="span_software_dev"> Software Developer</span> </h3>
+        <p class="wow fadeInUp" data-wow-delay="1.7s" id="about_text">
             I’m Frantzso Laguerre, a seasoned software developer with comprehensive training and a proven track record
             in web and mobile application development. I consistently demonstrate strong independence in my work while
             excelling in team-based collaborations. My commitment to responsibility, combined with the ability to
@@ -111,157 +147,204 @@
             development team or project.
 
         </p>
-       <!-- <a href="#" class="btn">Read More</a>-->
+        <!-- <a href="#" class="btn">Read More</a>-->
     </div>
 
-    <div class="about-img wow flipInY" data-wow-delay="1.3s">
-      <img src="images/lf.png" alt="About image">
+    <div class="about-img animate__animated animate__fadeInTopRight animate__delay-3s">
+        <img id="about_profil_id" src="images/profilllllll.png" alt="About image">
     </div>
 
 </section>
 
 
 
-  <!--PORTFOLIO SECTION-->
-<section class="portfolio" id="portfolio">
-
-    <main class="mainContainer">
+<!--PORTFOLIO SECTION-->
+<!--<section class="portfolio" id="portfolio">
+    <div class="container">
         <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">Portfo<span>lio</span></h2>
-
         <h3 class="wow fadeInUp" data-wow-delay="1.8s"><span style="color: orange">Some</span> Of My  Works</h3>
-
-        <!--  *****  Buttons Section Starts  *****  -->
-        <div class="button-group wow fadeInUp" data-wow-delay="1.8s">
-            <button class="button active" data-filter="*">All</button>
-            <button class="button" data-filter=".design">Mobile</button>
-            <button class="button" data-filter=".development">Desktop</button>
-            <button class="button" data-filter=".logo">Web</button>
+        <div class="row">
+            <div class="gallery-filter">
+                <span class="filter-item active" data-filter="all">all</span>
+                <span class="filter-item" data-filter="web">Web</span>
+                <span class="filter-item" data-filter="desktop">Desktop</span>
+                <span class="filter-item" data-filter="mobile">Mobile</span>
+            </div>
         </div>
+        <div class="row">
+            <div class="gallery-item" data-category="web">
+                <div class="image">
+                    <img src="images/LaSeve.png" alt="watch1">
+                    <div class="overlay">
+                        <h4>SYSTEME DE GESTION DES ACTIVITES ACADEMIQUES DE L'INSTITUT LA SEVE</h4>
+                        &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+                        <div style="display: inline-block; margin-top: -10px">
+                            <i class="devicon-angular-plain colored" style="color: firebrick; font-size: 25px"></i>
+                            <i class="devicon-spring-original-wordmark colored" style="font-size: 35px"></i>
+                            <i class="devicon-mysql-plain-wordmark" style="font-size: 45px"></i>
+                        </div>
 
-        <div class="gallery">
-            <!--  *****  Card 1 Starts  *****  -->
-            <div class="item design wow flipInY" data-wow-delay="1.1s">
-                <img src="images/desktopapp.jpg">
-                <div class="overlay">
-                    <a href="#">SYSTEME DE GESTION PRET</a>
+                        <div class="action-aria">
+                            <a href="#" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="item design wow flipInY" data-wow-delay="1.2s">
-                <img src="images/LaSeve.png">
-                <div class="overlay">
-                    <a href="#">SYSTEME DE GESTION INSTITUT LA SEVE</a>
+            <div class="gallery-item" data-category="desktop">
+                <div class="image">
+                    <img src="images/desktopapp.jpg" alt="headphone1">
+                    <div class="overlay">
+                        <h4>SYSTEME DE GESTION DE PRET</h4>
+                        &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+                        <div style="display: inline-block">
+                            <i class="devicon-java-plain-wordmark" style="font-size: 43px"></i>
+                            <i class="devicon-mysql-plain-wordmark" style="font-size: 47px"></i>
+                        </div>
+                        <div class="action-aria">
+                            <a href="#" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="item development wow flipInY" data-wow-delay="1.3s">
-                <img src="images/backg.jpg">
-                <div class="overlay">
+            <div class="gallery-item" data-category="mobile">
+                <div class="image">
+                    <img src="images/aaz_dic.png" style="height: 150px">
+                    <div class="overlay">
+                        <h4>AaZ DICTIONNAIRE</h4>
+                       &lt;!&ndash; <p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+                        <div class="action-aria">
+                            <a href="#" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div>-->
 
-            <div class="item development wow flipInY" data-wow-delay="1.4s">
-                <img src="images/backg.jpg">
-                <div class="overlay">
-                </div>
-            </div>
 
-            <div class="item development wow flipInY" data-wow-delay="1.5s">
-                <img src="images/desktopapp.jpg">
-                <div class="overlay">
-                </div>
-            </div>
 
-            <div class="item logo wow flipInY" data-wow-delay="1.6s">
-                <img src="images/LaSeve.png">
-                <div class="overlay">
-                </div>
-            </div>
+<!-- <div class="gallery-item" data-category="mobile">
+     <div class="image">
+         <img src="images/desktopapp.jpg" alt="phone1">
+         <div class="overlay">
+             <h4>Web project</h4>
+             &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+             <div class="action-aria">
+                 <a href="#" class="btn btn-light">Github</a>
+             </div>
+         </div>
+     </div>
+ </div>-->
+<!-- <div class="gallery-item" data-category="web">
+     <div class="image">
+         <img src="images/LaSeve.png" alt="watch2">
+         <div class="overlay">
+             <h4>Web project</h4>
+             &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+             <div class="action-aria">
+                 <a href="#" class="btn btn-light">Github</a>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="gallery-item" data-category="web">
+     <div class="image">
+         <img src="images/desktopapp.jpg" alt="headphone2">
+         <div class="overlay">
+             <h4>Web project</h4>
+             &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+             <div class="action-aria">
+                 <a href="#" class="btn btn-light">Github</a>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="gallery-item" data-category="desktop">
+     <div class="image">
+         <img src="images/LaSeve.png" alt="camera2">
+         <div class="overlay">
+             <h4>Web project</h4>
+             &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+             <div class="action-aria">
+                 <a href="#" class="btn btn-light">Github</a>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="gallery-item" data-category="desktop">
+     <div class="image">
+         <img src="images/desktopapp.jpg" alt="phone2">
+         <div class="overlay">
+             <h4>Web project</h4>
+             &lt;!&ndash;<p>I bring a proactive mindset to my work, always.</p>&ndash;&gt;
+             <div class="action-aria">
+                 <a href="#" class="btn btn-light">Github</a>
+             </div>
+         </div>
+     </div>
+ </div>
 
-        </div>
-    </main>
-
-</section>
+</div>
+</div>
+</section>-->
 
 
 
 <!--RESUME SECTION-->
-<section class="resume" id="resume">
-    <div class="container">
-        <h2 class="heading">Resu<span style="color: white">me</span></h2>
-        <h3 class="wow fadeInUp" data-wow-delay="1.8s">Education &<span> Experience </span></h3>
-        <main class="row">
-
-            <div class="col">
-
-                <header class="title">
-                    <h4>EDUCATION</h4>
-                </header>
-
-                <div class="contents">
-
-                    <div class="box">
-                        <h4>2006 - 2013</h4>
-                        <h3>College Mixte Lamartiniere</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                            Nullam ac suscipit ex.
-                        </p>
-                    </div>
-
-
-                    <div class="box">
-                        <h4>2013 - 2017</h4>
-                        <h3>UNITECH (Universite Technologie d'Haiti)</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                            Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
-                            dapibus eget in urna.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="col">
-                <header class="title">
-                    <h4>EXPERIENCE</h4>
-                </header>
-
-                <div class="contents">
-                    <div class="box">
-                        <h4>2019 - 2022</h4>
-                        <h3>E-Management</h3>
-                        <p>
-                            E-Management is a company specializing in the sale of IT services by creating
-                            computer systems that can help entrepreneurs better manage their business.
-                        </p>
-                    </div>
-
-
-                    <div class="box">
-                        <h4>2023 - 2024</h4>
-                        <h3>Solutions S.A</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                            Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
-                            dapibus eget in urna.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </main>
-
+<section class="resume-section" id="resume">
+    <div class="resume-header">
+        <h2 class="heading wow fadeInUp" data-wow-delay="1.7s"  id="resume_id">Resu<span id="me_id">me</span></h2>
+        <h3 class="sub-title wow fadeInUp" data-wow-delay="1.7s" id="educExp_id">Education &<span id="experience_id"> Experience </span></h3>
     </div>
+    <div class="timeline">
+        <div class="timeline-item wow fadeInLeft" data-wow-delay="1.7s">
+            <div class="icon" style="color: white">🎓</div>
+            <div class="content">
+                <h3 style="margin-bottom: 10px">UNITECH</h3>
+                <h4 id="unitech_date"><span>2013 - 2017 | Computer scientist</span></h4>
+                <p id="unitech_id">
+                    I graduated with a Bachelor's degree in Computer Science after completing a 4-year course at UNITECH University.
+                    During my studies, I acquired a solid theoretical and practical training in various areas of computer science, including
+                    programming, databases, web development and computer systems.
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item wow fadeInRight" data-wow-delay="1.7s">
+            <i class='icon bx bxs-briefcase' style="color: #000106"></i>
+            <div class="content">
+                <h3 style="margin-bottom: 10px">SOLUTIONS S.A</h3>
+                <h4 id="solutions_date"><span>2023 - 2024 | Developer</span></h4>
+                <p id="solutions_id">
+                    I did an internship with the development company SOLUTIONS S.A, where I had the opportunity to work on real software
+                    development projects. This experience enabled me to apply my programming skills, collaborate with a professional team
+                    and contribute to innovative technical solutions.
 
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item timeline-item wow fadeInLeft" data-wow-delay="1.7s">
+            <div class="icon">🎓</div>
+            <div class="content">
+                <h3 style="margin-bottom: 10px">COLLEGE MIXTE LAMARTINIERE</h3>
+                <h4 id="lamartiniere_date"><span>2006 - 2013 | Classical School</span></h4>
+                <p id="lamartiniere_id">
+                    I completed my secondary education at Collège Mixte Lamartinière. This period enabled me to develop solid academic
+                    skills and lay the foundations for my future training in computer science, while preparing me for the challenges of
+                    the university world.
+                </p>
+            </div>
+        </div>
+        <div class="timeline-item timeline-item wow fadeInRight" data-wow-delay="1.7s">
+            <i class='icon bx bxs-briefcase' style="color: #000106"></i>
+            <div class="content">
+                <h3 style="margin-bottom: 10px">E-MANAGEMENT</h3>
+                <h4 id="emanagement_date"><span>2019 - 2021 | Developer</span></h4>
+                <p id="emanagement_id">
+                    E-Management specializes in Information Technology services, particularly custom Information Iechnology systems, helping
+                    entrepreneurs manage their businesses with tailored solutions. I worked there as a software developer, contributing to
+                    various projects.
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -269,257 +352,291 @@
 <!--SKILLS SECTION-->
 <section class="skills" id="skills">
 
-   <div class="main-title">
-       <h2 class="heading">My Ski<span>lls</span></h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-           Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-           Nullam ac suscipit ex, at tincidunt mi.
-       </p>
-   </div>
+    <div class="main-title">
+        <h2 class="heading wow fadeInUp" data-wow-delay="1.7s" id="myskills_id">My Ski<span>lls</span></h2>
+        <p id="skillsparagraph" class="wow fadeInUp" data-wow-delay="1.7s">Here are the skills, tools and technology I have mastered and used to bring ideas to life, solve
+            problems, and deliver high-quality projects efficiently.
+        </p>
+    </div>
 
-       <div class="row">
+    <div class="row">
 
-           <!--Programming Skills Column-->
-           <div class="col">
-               <div class="sub-title">
-                   <h2>Programming Skills</h2>
-               </div>
+        <!-- Programming Skills Column -->
+        <div class="col wow fadeInLeft" data-wow-delay="1.7s">
+            <div class="sub-title">
+                <h2 id="programmingskills_id">Programming Skills</h2>
+            </div>
 
-               <div class="skills-container">
-                   <div class="skill">
-                       <div class="subject">C#</div>
-                       <div class="progress-bar" value="70%">
-                           <div class="progress-line" style="max-width: 70%"></div>
-                       </div>
-                   </div>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="subject">C#</div>
+                    <!--<div class="subject"><i class="devicon-csharp-plain"></i></div>-->
+                    <div class="progress-bar" value="70%">
+                        <div class="progress-line" style="max-width: 70%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">HTML/CSS</div>
-                       <div class="progress-bar" value="95%">
-                           <div class="progress-line" style="max-width: 95%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">HTML/CSS</div>
+                    <!--<div class="subject"><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i></div>-->
+                    <div class="progress-bar" value="90%">
+                        <div class="progress-line" style="max-width: 90%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">JAVA</div>
-                       <div class="progress-bar" value="70%">
-                           <div class="progress-line" style="max-width: 70%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">JAVA</div>
+                    <!--<div class="subject"><i class="devicon-java-plain-wordmark" style="font-size: 65px; margin-right: 100px"></i></div>-->
+                    <div class="progress-bar" value="75%">
+                        <div class="progress-line" style="max-width: 75%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">JAVASCRIPT</div>
-                       <div class="progress-bar" value="50%">
-                           <div class="progress-line" style="max-width: 50%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">JAVASCRIPT</div>
+                    <!--<div class="subject"><i class="devicon-javascript-plain"></i></div>-->
+                    <div class="progress-bar" value="50%">
+                        <div class="progress-line" style="max-width: 50%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">Python</div>
-                       <div class="progress-bar" value="30%">
-                           <div class="progress-line" style="max-width: 30%"></div>
-                       </div>
-                   </div>
-
-               </div>
-           </div>
-
-
-           <!--DataBase Skills Column-->
-           <div class="col">
-               <div class="sub-title">
-                   <h2>DataBase Skills</h2>
-               </div>
-
-               <div class="skills-container">
-                  <div class="skill">
-                       <div class="subject">MySQL</div>
-                       <div class="progress-bar" value="80%">
-                           <div class="progress-line" style="max-width: 80%"></div>
-                       </div>
-                   </div>
-
-                   <div class="skill">
-                       <div class="subject">ORACLE</div>
-                       <div class="progress-bar" value="50%">
-                           <div class="progress-line" style="max-width: 50%"></div>
-                       </div>
-                   </div>
-
-                   <div class="skill">
-                       <div class="subject">SQLITE</div>
-                       <div class="progress-bar" value="60%">
-                           <div class="progress-line" style="max-width: 60%"></div>
-                       </div>
-                   </div>
-
-                   <div class="skill">
-                       <div class="subject">SQL SERVER</div>
-                       <div class="progress-bar" value="60%">
-                           <div class="progress-line" style="max-width: 60%"></div>
-                       </div>
-                   </div>
-
-                   <div class="skill">
-                       <div class="subject">POSTGRE SQL</div>
-                       <div class="progress-bar" value="82%">
-                           <div class="progress-line" style="max-width: 82%"></div>
-                       </div>
-                   </div>
-
-               </div>
-           </div>
+                <div class="skill">
+                    <div class="subject">PYTHON</div>
+                    <!--<div class="subject"><i class="devicon-python-plain-wordmark colored" style="font-size: 45px; color: orange" ></i></div>-->
+                    <div class="progress-bar" value="30%">
+                        <div class="progress-line" style="max-width: 30%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-           <!--DataBase Skills Column-->
-          <!-- <div class="col">
-               <div class="sub-title">
-                   <h2>Other Skills</h2>
-               </div>
+        <!-- Database Skills Column -->
+        <div class="col wow fadeInRight" data-wow-delay="1.7s">
+            <div class="sub-title">
+                <h2 id="databaseskills_id">DataBase Skills</h2>
+            </div>
 
-               <div class="skills-container">
-                   <div class="skill">
-                       <div class="subject">Git</div>
-                       <div class="progress-bar" value="80%">
-                           <div class="progress-line" style="max-width: 80%"></div>
-                       </div>
-                   </div>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="subject">MYSQL</div>
+                    <!--<div class="subject"><i class="devicon-mysql-plain-wordmark" ></i></div>-->
+                    <div class="progress-bar" value="85%">
+                        <div class="progress-line" style="max-width: 85%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">Android Programming</div>
-                       <div class="progress-bar" value="50%">
-                           <div class="progress-line" style="max-width: 50%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">ORACLE</div>
+                    <!--<div class="subject"><i class="devicon-oracle-original" style="font-size: 40px"></i></div>-->
+                    <div class="progress-bar" value="40%">
+                        <div class="progress-line" style="max-width: 40%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">SQLITE</div>
-                       <div class="progress-bar" value="60%">
-                           <div class="progress-line" style="max-width: 60%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">SQLITE</div>
+                    <!--<div class="subject"><i class="devicon-sqlite-plain-wordmark" style="font-size: 45px"></i></div>-->
+                    <div class="progress-bar" value="55%">
+                        <div class="progress-line" style="max-width: 55%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">SQL SERVER</div>
-                       <div class="progress-bar" value="60%">
-                           <div class="progress-line" style="max-width: 60%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">SQL SERVER</div>
+                    <!-- <div class="subject"><i class="devicon-microsoftsqlserver-plain-wordmark" style="font-size: 45px"></i></div>-->
+                    <div class="progress-bar" value="60%">
+                        <div class="progress-line" style="max-width: 60%"></div>
+                    </div>
+                </div>
 
-                   <div class="skill">
-                       <div class="subject">POSTGRE SQL</div>
-                       <div class="progress-bar" value="82%">
-                           <div class="progress-line" style="max-width: 82%"></div>
-                       </div>
-                   </div>
+                <div class="skill">
+                    <div class="subject">POSTGRE SQL</div>
+                    <!--<div class="subject"><i class="devicon-postgresql-plain-wordmark" style="font-size: 40px"></i></div>-->
+                    <div class="progress-bar" value="30%">
+                        <div class="progress-line" style="max-width: 30%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-               </div>
-           </div>-->
+    </div>
 
-       </div>
+
+    <div class="other-skills">
+        <div class="sub-title">
+            <h2 style="color: var(--text-color); font-size: 21px" id="otherskills_id" class="wow fadeInUp" data-wow-delay="1.7s">IDE, Tools and other Technology used</h2>
+        </div>
+        <div class="icons-container animate__animated animate__bounceInUp animate__delay-5s" >
+            <i class="devicon-visualstudio-plain colored"></i>
+            <i class="devicon-intellij-plain colored"></i>
+            <i class="devicon-webstorm-plain colored"></i>
+            <i class="devicon-pycharm-plain colored"></i>
+            <i class="devicon-androidstudio-plain-wordmark colored" style="font-size: 40px"></i>
+            <i class="devicon-firebase-plain-wordmark colored"></i>
+            <i class="devicon-tomcat-line-wordmark colored"></i>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-bitbucket-original-wordmark colored"></i>
+            <i class="devicon-github-original-wordmark colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <i class="devicon-android-plain-wordmark colored"></i>
+            <i class="devicon-hibernate-plain-wordmark colored"></i>
+            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            <i class="devicon-angular-plain colored" style="color: firebrick"></i>
+            <i class="devicon-dotnetcore-plain colored"></i>
+            <i class="devicon-xml-plain colored"></i>
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <i class="devicon-azuresqldatabase-plain colored"></i>
+            <i class="devicon-spring-original-wordmark colored"></i>
+
+        </div>
+    </div>
+
 </section>
+
 
 
 
 <!--SERVICES SECTION-->
 <section class="service" id="service">
-    <h2 class="heading wow fadeInUp" data-wow-delay="1.8s">Servi<span>ces</span></h2>
-    <h3 class="wow fadeInUp" data-wow-delay="1.8s"><span style="color: orange">What</span> I <span> Offer </span></h3>
+    <h2 class="heading wow fadeInUp" data-wow-delay="1.8s" id="services_id">Servi<span>ces</span></h2>
+    <h3 class="wow fadeInUp" data-wow-delay="1.8s" id="whatIOffer_id"><span style="color: orange" >What</span> I <span> Offer </span></h3>
 
     <div class="services-container">
-        <div class="services-box heading wow flipInY" data-wow-delay="1.2s">
+        <!--<div class="services-box heading wow fadeInLeft" data-wow-delay="2.5s">
             <i class='bx bx-code-curly'></i>
-            <h3>Backend Development</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
-                dapibus eget in urna.
+            <h3 id="backendDevelopment_id">Backend Development</h3>
+            <p id="backdev_id">
+                I develop server-side functionalities to keep applications running smoothly. I work
+                with databases, configure APIs and ensure that data flows correctly between the frontend
+                and backend.
+                <br>
+                <br>
             </p>
-<!--
+&lt;!&ndash;
             <a href="#" class="btn">Read More</a>
--->
+&ndash;&gt;
 
         </div>
+-->
 
-        <div class="services-box heading wow flipInY" data-wow-delay="1.3s">
+        <div class="services-box heading wow fadeInLeft" data-wow-delay="2s">
+            <i class="bx bx-desktop"></i>
+            <h3 id="destopDevTitle_id">DeskTop Development</h3>
+            <p id="desktopParag_id">
+                I build high-performance desktop applications that blend functionality with a
+                seamless user experience. Each project is meticulously crafted to meet user
+                requirements ensuring compatibility across platforms.
+            </p>
+            <!--
+                        <a href="#" class="btn">Read More</a>
+            -->
+        </div>
+
+
+        <div class="services-box heading wow fadeInRight" data-wow-delay="2">
             <i class="bx bxl-android"></i>
-            <h3>Mobile Development</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
-                dapibus eget in urna.
+            <h3 id="mobilDevelopmentTitle_id">Mobile Development</h3>
+            <p id="DevelopMobilParag_id">
+                I design and develop mobile applications, focusing on efficiency and ease of use.
+                Each project is designed to deliver a fluid, responsive experience, with solutions
+                that meet user expectations and corporate objectives.
             </p>
-<!--
-            <a href="#" class="btn">Read More</a>
--->
+            <!--
+                        <a href="#" class="btn">Read More</a>
+            -->
 
         </div>
 
-        <div class="services-box heading wow flipInY" data-wow-delay="1.5s">
-            <i class="bx bx-code"></i>
-            <h3>Web Development</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed sit amet pulvinar lacus. Proin imperdiet dolor in dapibus tincidunt.
-                Nullam ac suscipit ex, at tincidunt mi. Duis sed mi eget velit pretium
-                dapibus eget in urna.
+        <div class="services-box heading wow fadeInRight" data-wow-delay="2.5s">
+            <i class="bx bx-globe"></i>
+            <h3 id="webDevelopmentTitle_id_">Web Development</h3>
+            <p id="webDevelopmentParag_id_">
+                I design and develop high-performance applications and websites, combining functionality
+                with a high-quality user experience. Each project is carefully crafted to meet user needs
+                while respecting web standards.
             </p>
-<!--
-            <a href="#" class="btn">Read More</a>
--->
+            <!--
+                        <a href="#" class="btn">Read More</a>
+            -->
         </div>
+
     </div>
 </section>
 
 
 
 <!--CONTACT SECTION-->
-<section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
+<section class="contact">
+    <h2 class="heading wow fadeInUp" data-wow-delay="1.7s" id="contactMeTitle_id">Contact <span>Me</span></h2>
 
-    <form action="#">
+    <form id="contactForm">
         <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" name="email" placeholder="Email Address">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="email" name="email" id="emailAddress" placeholder="Email Address" required>
         </div>
 
         <div class="input-box">
-            <input type="number" placeholder="Phone Number">
-            <input type="text" name="email" placeholder="Email Subject">
+            <input type="number" id="phone_id" placeholder="Phone Number" required>
+            <input type="text" name="email" id="emailSubject" placeholder="Email Subject" required>
         </div>
 
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
-        <input type="submit" value="Send Message" class="btn">
+        <textarea name="message" id="yourMessage_id" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" id="sendMessage_id" value="Send Message" class="btn">
     </form>
+    <div id="spinner" class="hidden">Sending... wait a moment!</div>
+    <div id="error" class="hidden">You are offline. Please check your connection.</div>
+    <br>
 </section>
 
 
 
 <!--FOOTER SECTION-->
 <footer class="footer">
-    <div class="container">
-        <label class="brand">F<span style="color: black; font-family: initial">L</span></label>
+    <div class="social">
+        <a href="https://web.facebook.com/profile.php?id=100084007382279" target="_blank"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://bitbucket.org/Frantzso" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/frantzso-laguerre-32aa00192" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.youtube.com/@laguerrefrantzso4652" target="_blank"><i class='bx bxl-youtube' ></i></a>
     </div>
 
-<div class="social">
-    <a href="#"><i class='bx bxl-facebook' ></i></a>
-    <a href="#"><i class='bx bxl-github' ></i></a>
-    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-    <a href="#"><i class='bx bxl-youtube' ></i></a>
-</div>
+    <!-- <div class="container">
+         &lt;!&ndash;<label class="brand">F<span>L</span></label>&ndash;&gt;
+         <a href="#"><img src="./images/FL_TECHnology_solutions.png" alt=""></a>
+         <h6 style="font-size: 10px; color: white">FL Technology Solutions</h6>
+     </div>-->
 
-<p class="copyright">
-    &copy; 2024 Frantzso Laguerre - Rights Reserved
-</p>
+    <p class="copyright">
+        &copy; 2024 Frantzso Laguerre - Rights Reserved
+    </p>
 
-<p class="copyright">
-    Created by Frantzso Laguerre
-</p>
+    <p class="copyright">
+        Created by Frantzso Laguerre
+    </p>
 
 </footer>
 
+
+<script>
+    // Fonction pour afficher/masquer le menu avec un effet de glissement
+    function toggleDropdown() {
+        const dropdown = document.getElementById("cv-dropdown");
+
+        if (dropdown.style.display === "none" || dropdown.style.display === "") {
+            // Si le menu est caché, l'afficher avec l'effet de glissement
+            dropdown.style.display = "block";
+            setTimeout(() => {
+                dropdown.style.height = dropdown.scrollHeight + "px"; // Utilisation de scrollHeight pour une hauteur dynamique
+            }, 10);
+        } else {
+            // Si le menu est visible, le cacher avec l'effet de glissement
+            dropdown.style.height = "0"; // Réduire la hauteur à 0 pour l'effet de glissement
+            setTimeout(() => {
+                dropdown.style.display = "none"; // Cacher le menu après l'animation
+            }, 500); // Attendre la fin de l'animation
+        }
+    }
+</script>
 
 
 <!--TYPING LETTER ANIMATION LINK-->
@@ -528,7 +645,19 @@
 <!--ISOTOPE FILTER LINK-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
-<script src="javascript/script.js"></script>
+<script src="./javascript/script.js"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "0nvp9TXFc4CUl1P5K",
+        });
+    })();
+</script>
+
 
 <!--WOW ANIMATION-->
 <script src="javascript/wow.min.js"></script>

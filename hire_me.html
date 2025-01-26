@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me</title>
+    <link rel="stylesheet" href="css/hire_me.css">
+</head>
+<body>
+<div class="form-container">
+    <h1>HIRE ME</h1>
+    <form id="hireForm">
+        <!-- Full Name -->
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <!-- Project Type -->
+        <div class="form-group">
+            <label for="projectType">Project Type</label>
+            <select id="projectType" name="projectType" required>
+                <option value="" disabled selected>Select a project type</option>
+                <option value="Website">Website</option>
+                <option value="Desktop App">Desktop App</option>
+                <option value="Web App">Web App</option>
+                <option value="Mobile App">Mobile App</option>
+                <option value="Database">Database</option>
+            </select>
+        </div>
+
+        <!-- Budget -->
+        <div class="form-group">
+            <label for="budget">Budget</label>
+            <select id="budget" name="budget" required>
+                <option value="" disabled selected>Select your budget</option>
+                <option value="500-1000">$500 - $1000</option>
+                <option value="1000-3000">$1000 - $3000</option>
+                <option value="discuss">I'll discuss</option>
+            </select>
+        </div>
+
+        <!-- About Project -->
+        <div class="form-group">
+            <label for="aboutProject">About Project</label>
+            <textarea id="aboutProject" name="aboutProject" placeholder="Describe your project here..." required></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="btn-group">
+            <button type="button" id="cancelButton" onclick="window.location.href='index.html'">Cancel</button>
+            <button type="submit" id="sendButton">Send</button>
+        </div>
+        <div id="spinner" class="hidden">Sending...</div>
+        <div id="error" class="hidden">You are offline. Please check your connection.</div>
+    </form>
+</div>
+
+
+<script src="javascript/hire_me.js"></script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "0nvp9TXFc4CUl1P5K",
+        });
+    })();
+</script>
+
+</body>
+</html>

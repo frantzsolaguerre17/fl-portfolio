@@ -1,0 +1,129 @@
+
+:root{
+    --bg-color: #fff;
+    --snd-bg-color:#d5fdf9;
+    --main-color: #003846;
+    --text-color: #000;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Title */
+.form-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Buttons Group */
+.btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/*button:hover {
+    background-color: #0056cc;
+}*/
+
+#cancelButton {
+    background-color: var(--text-color);
+}
+
+
+.hidden {
+    display: none;
+}
+
+#spinner {
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+/*button.cancel:hover {
+    background-color: #c73225;
+}*/
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px 20px;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    button {
+        width: 100%;
+    }
+}

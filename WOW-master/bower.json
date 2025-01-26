@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "wow",
   "homepage": "https://github.com/matthieua/WOW",
@@ -20,3 +21,27 @@
     "tests"
   ]
 }
+=======
+{
+  "name": "wow",
+  "homepage": "https://github.com/matthieua/WOW",
+  "authors": [
+    "Matthieu Aussaguel <matthieu.aussaguel@gmail.com>"
+  ],
+  "description": "Reveal CSS animation as you scroll down a page.",
+  "main": "dist/wow.js",
+  "keywords": [
+    "scroll",
+    "animation",
+    "reveal"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+>>>>>>> 3697b7549bb854833e5cd87f1985dc6aefd6ece6
