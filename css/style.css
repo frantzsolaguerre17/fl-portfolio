@@ -105,7 +105,7 @@ section{
 
 .logo{
     font-size: 3rem;
-    color: red !important;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s ease;
@@ -2650,8 +2650,46 @@ a.ht:before{
 
 
 /*BREAKPOINT 375PX*/
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
 
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .about{
+        margin-bottom: -25px;
+    }
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
 }
 
 
@@ -2794,6 +2832,7 @@ a.ht:before{
     .resume-section{
         margin-bottom: -50px;
     }
+
 
     .about{
         margin-bottom: -25px;
