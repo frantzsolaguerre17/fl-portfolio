@@ -2866,7 +2866,7 @@ a.ht:before{
 
 
 /*BREAKPOINT 414PX*/
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 
     .contact h2{
         margin-bottom: 3rem;
@@ -2876,7 +2876,7 @@ a.ht:before{
     }
 
     .contact{
-        margin-bottom: -140px;
+        margin-bottom: -120px;
     }
 
     .service{
@@ -3000,6 +3000,10 @@ a.ht:before{
         margin-top: -60px;
     }
 
+    .contact{
+        margin-bottom: -20px;
+    }
+
     #skillsparagraph{
         font-size: 1.9rem;
     }
@@ -3049,6 +3053,10 @@ a.ht:before{
         margin-top: -60px;
     }
 
+    .contact{
+        margin-bottom: -20px;
+    }
+
     .service{
         margin-bottom: -40px;
     }
@@ -3093,7 +3101,12 @@ a.ht:before{
 
 }
 
+@media(max-width: 344px) {
 
+    .contact{
+        margin-bottom: -110px;
+    }
+}
 
 /*BREAKPOINT 320PX*/
 @media(max-width: 320px) {
