@@ -2392,6 +2392,20 @@ a.ht:before{
 }
 
 
+@media ( max-width: 600px) {
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+}
+
+
 /*BREAKPOINT 575PX*/
 @media (max-width: 575px){
     .portfolio .gallery-item{
@@ -2876,7 +2890,7 @@ a.ht:before{
     }
 
     .contact{
-        margin-bottom: -120px;
+        margin-bottom: -10px;
     }
 
     .service{
@@ -2989,7 +3003,11 @@ a.ht:before{
 
 }
 
-
+@media (max-width: 384px) {
+    .contact{
+        margin-bottom: -20px;
+    }
+}
 
 /*BREAKPOINT 376PX*/
 @media (max-width: 376px) {
@@ -3163,6 +3181,11 @@ a.ht:before{
         text-align: center;
         margin-top: -60px;
     }
+
+    .contact{
+        margin-bottom: -10px;
+    }
+
 
 
     #about_profil_id{
