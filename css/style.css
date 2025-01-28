@@ -927,6 +927,90 @@ span{
 }
 
 
+.skills .content_creator{
+    padding: 20px 20px;
+    background-color: #fff;
+    background: var(--snd-bg-color);
+    width: 100%;
+}
+
+.skills .content_creator h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.skills .content_creator p {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 30px auto;
+    font-family: helvetica, serif;
+}
+
+.content_creator .swiper {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.skills .content_creator .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.skills .swiper .swiper-slide .card-content h2 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.skills .swiper .swiper-slide .card-content p {
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.skills .content_creator .swiper-slide a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 12px 17px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/*.card-content a:hover {
+    background-color: #0056b3;
+}
+
+.swiper-pagination-bullet {
+    background: #007bff;
+    opacity: 0.8;
+}*/
 
 /*******************SERVICES********************/
 .service{
@@ -1320,6 +1404,28 @@ a.ht:before{
     text-align: center;
 }
 
+
+
+.skills .content_creator .card-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px; /* Espace entre l'icône et le texte */
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 10px;
+    transition: background-color 0.3s;
+}
+
+.skills .content_creator .card-button:hover {
+    background-color: #e0e0e0;
+}
+
+.skills .content_creator .card-button i {
+    font-size: 15px;
+}
 
 
 
@@ -1899,7 +2005,6 @@ a.ht:before{
     }
 
 
-
     .home-content .experience-stats {
         display: flex;
         justify-content: left;
@@ -1929,9 +2034,6 @@ a.ht:before{
         text-align: left;
         line-height: 1.2;
     }
-
-
-
 
 
     .timeline-item::before {
@@ -2104,7 +2206,6 @@ a.ht:before{
         text-align: left;
         line-height: 1.2;
     }
-
 
 
     .about{
@@ -2333,6 +2434,19 @@ a.ht:before{
         width: 50%;
     }
 
+
+
+    .skills .content_creator .cards{
+        flex-direction: column;
+    }
+
+    .skills .content_creator .card{
+        margin: 20px 0px;
+    }
+
+    .skills .content_creator .content-image{
+        max-width: 100%;
+    }
 
 }
 
