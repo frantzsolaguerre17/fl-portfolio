@@ -22,8 +22,8 @@
 
 :root{
     --bg-color: #fff;
-    --snd-bg-color: #f2ebe6;
-    --main-color: #795548;
+    --snd-bg-color: #D8E6ED;
+    --main-color: #02395c;
     --text-color: #000;
 }
 
@@ -944,11 +944,21 @@ span{
 
 .skills .content_creator p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--text-color);
     max-width: 700px;
     margin: 30px auto;
     font-family: helvetica, serif;
+}
+
+.skills .content_creator .recently_p {
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 30px auto;
+    font-family: helvetica, serif;
+    font-weight: bolder;
 }
 
 .content_creator .swiper {
@@ -986,7 +996,7 @@ span{
 }
 
 .skills .swiper .swiper-slide .card-content p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #666;
     margin-bottom: 15px;
 }
@@ -1003,14 +1013,19 @@ span{
     transition: background-color 0.3s ease;
 }
 
-/*.card-content a:hover {
+.skills .content_creator .card-content .facebook_:hover {
     background-color: #0056b3;
 }
 
-.swiper-pagination-bullet {
+.skills .content_creator .card-content .youtube_:hover {
+    background-color: firebrick;
+}
+
+
+/*.swiper-pagination-bullet {
     background: #007bff;
     opacity: 0.8;
-}*/
+}*!*/
 
 /*******************SERVICES********************/
 .service{
