@@ -1257,7 +1257,7 @@ span{
 .header .progress-bar .progress-line{
     width: 0%;
     height: 100%;
-    background-color: black !important;
+    background-color: var(--secondary-color) !important;
 }
 
 
@@ -3346,5 +3346,29 @@ a.ht:before{
         font-weight: 700;
         transition: 0.3s ease;
     }
+
+
+    .skills .content_creator .swiper-slide a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+    .skills .swiper .swiper-slide .card-content h2 {
+        font-size: 2.3rem;
+        margin-bottom: 10px;
+        color: #222;
+        margin-top: 1px;
+        width: 100%;
+
+    }
+
+
 
 }
