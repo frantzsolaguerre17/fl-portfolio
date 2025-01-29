@@ -22,8 +22,8 @@
 
 :root{
     --bg-color: #fff;
-    --snd-bg-color: #D8E6ED;
-    --main-color: #02395c;
+    --snd-bg-color: #DCE6ED;
+    --main-color: #113D60;
     --text-color: #000;
     --secondary-color: orange;
 }
@@ -51,7 +51,7 @@ section{
 .dark-theme{
     --bg-color: #000106;
     --snd-bg-color:#000106;
-    --main-color: #003846;
+    --main-color: #113D60;
     --text-color: #fff;
 }
 
@@ -129,13 +129,13 @@ section{
 
 .navbar a:hover,
 .navbar a.active{
-    color: orange;
+    color: var(--secondary-color);
 }
 
 
 .nav-link {
     position: relative;
-    color: orange;
+    color: var(--secondary-color);
     text-decoration: none;
     transition: color 0.3s ease;
     padding: 5px 10px;
@@ -150,13 +150,13 @@ section{
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #FFA500;
+    background-color: var(--secondary-color);
     transition: width 0.4s ease;
 }
 
 
 .nav-link.active {
-    color: #FFA500;
+    color: var(--secondary-color);
 }
 
 
@@ -184,7 +184,7 @@ section{
 
 
 #im_text{
-    color: orange;
+    color: var(--secondary-color);
 }
 
 
@@ -351,7 +351,7 @@ span{
 }
 
 .about .span_yellow{
-    color: orange;
+    color: var(--secondary-color);
 }
 
 .about-img img{
@@ -902,7 +902,7 @@ span{
     position: absolute;
     width: 0%;
     height: 7px;
-    background-color: orange;
+    background-color: var(--secondary-color);
     border-radius: 15px;
     top: -1px;
     animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
@@ -924,7 +924,7 @@ span{
     top: 50%;
     left: 100%;
     transform: translate(-50%, -50%);
-    background-color: orange;
+    background-color: var(--secondary-color);
 }
 
 
@@ -1157,7 +1157,7 @@ span{
 
 
 .btn_whatssapp:hover{
-    color: orange;
+    color: var(--secondary-color);
     border-radius: 22px;
     transition: all 0.5s;
 }
@@ -1422,29 +1422,6 @@ a.ht:before{
 
 
 
-.skills .content_creator .card-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 25px; /* Espace entre l'icône et le texte */
-    padding: 10px 15px;
-    background-color: #f1f1f1;
-    color: #333;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 10px;
-    transition: background-color 0.3s;
-}
-
-.skills .content_creator .card-button:hover {
-    background-color: #e0e0e0;
-}
-
-.skills .content_creator .card-button i {
-    font-size: 15px;
-}
-
-
-
 
 
 /* ================ MÉDIAS QUERIES ================ */
@@ -1494,7 +1471,7 @@ a.ht:before{
         bottom: 12px;
         width: 0;
         height: 2px;
-        background-color: #FFA500;
+        background-color: var(--secondary-color);
         transition: width 0.4s ease;
     }
 
@@ -1510,7 +1487,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .logo{
@@ -1612,7 +1589,7 @@ a.ht:before{
         bottom: 12px;
         width: 0;
         height: 2px;
-        background-color: #FFA500;
+        background-color: var(--secondary-color);
         transition: width 0.4s ease;
     }
 
@@ -1629,7 +1606,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .logo{
@@ -1731,7 +1708,7 @@ a.ht:before{
         bottom: 12px;
         width: 0;
         height: 2px;
-        background-color: #FFA500;
+        background-color: var(--secondary-color);
         transition: width 0.4s ease;
     }
 
@@ -1748,7 +1725,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .logo{
@@ -1860,7 +1837,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
 }
@@ -1882,7 +1859,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 }
 
@@ -1977,7 +1954,7 @@ a.ht:before{
         bottom: 12px;
         width: 0;
         height: 2px;
-        background-color: #FFA500;
+        background-color: var(--secondary-color);
         transition: width 0.4s ease;
     }
 
@@ -1994,7 +1971,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .logo{
@@ -2294,7 +2271,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
 
@@ -2335,7 +2312,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 }
 
@@ -2421,7 +2398,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
 
@@ -2516,7 +2493,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
 }
@@ -2554,7 +2531,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .contact h2{
@@ -2644,7 +2621,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
     .contact h2{
@@ -2731,7 +2708,7 @@ a.ht:before{
     .header .progress-bar .progress-line{
         width: 0%;
         height: 100%;
-        background-color: orange;
+        background-color: var(--secondary-color);
     }
 
 
@@ -2746,7 +2723,7 @@ a.ht:before{
     }
 
     .btn_whatssapp:hover{
-        color: orange;
+        color: var(--secondary-color);
         border-radius: 22px;
         transition: all 0.5s;
     }

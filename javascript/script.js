@@ -187,9 +187,9 @@ $(function() {
 
 
 
-        $("#resume_id").html("Resu<span style=\"color: #003846\">me</span>");
+        $("#resume_id").html("Resu<span style=\"color: #113D60\">me</span>");
 
-        $("#educExp_id").html("Education &<span style=\"color: #003846\"> Experience </span>");
+        $("#educExp_id").html("Education &<span style=\"color: #113D60\"> Experience </span>");
 
         $("#unitech_date").html("<span>2013 - 2017 | Computer scientist</span>");
         $("#solutions_date").html("<span>2023 - 2024 | Developer</span>");
@@ -220,6 +220,49 @@ $(function() {
         $("#programmingskills_id").html("Programming Skills");
         $("#databaseskills_id").html("DataBase Skills");
         $("#otherskills_id").html("IDE, Tools and other Technology used");
+
+
+        $("#it_content_creat").html("IT Content Creator");
+        $("#it_content_paragraph").html("I create IT content that focuses on education, offering practical tips, solving\n" +
+            "        real-world problems, and guiding users through the complexities of the tech world\n" +
+            "        with detailed explanations and easy-to-follow solutions.");
+        $("#recently_pub").html("Recently Published Videos");
+
+        $("#laverite_partie1").html("The truth behind technology myths | PART 3");
+        $("#laverite_partie1_pararaph").html("Discover the truth behind the 7 most common technology myths | Part Three");
+        $("#watch_it_facebook").html("Watch it");
+        $("#watch_it_youtube").html("Watch it");
+
+        $("#laverite_partie2").html("The truth behind technology myths | PART 2");
+        $("#laverite_partie1_pararaph2").html("Discover the truth behind the 7 most common technology myths | Part Two");
+        $("#watch_it_facebook2").html("Watch it");
+        $("#watch_it_youtube2").html("Watch it");
+
+        $("#laverite_partie3").html("The truth behind technology myths | PART 1");
+        $("#laverite_partie1_pararaph3").html("Discover the truth behind the 7 most common technology myths | Part One");
+        $("#watch_it_facebook3").html("Watch it");
+        $("#watch_it_youtube3").html("Watch it");
+
+        $("#choix_ord").html("Which computer for your needs | GUIDE");
+        $("#choix_ord_paragraph").html("Find out how to choose the right laptop for your needs in just a few minutes.");
+        $("#watch_it_facebook4").html("Watch it");
+        $("#watch_it_youtube4").html("Watch it");
+
+        $("#bloquer_acces").html("How to block access to a website on a Windows PC | TRICK");
+        $("#bloquer_acces_paragraph").html("Learn how to block access to any website on your Windows PC");
+        $("#watch_it_facebook5").html("Watch it");
+        $("#watch_it_youtube5").html("Watch it");
+
+        $("#activer_god_mode").html("How to activate GOD MODE on windows 10/11 | TRICK");
+        $("#activer_god_mode_paragraph").html(" Find out how to activate GOD MODE on your Windows 10/11 PC.");
+        $("#watch_it_facebook6").html("Watch it");
+        $("#watch_it_youtube6").html("Watch it");
+
+        $("#changer_icone").html("How to change the folder icon on windows 10/11 | TRICK");
+        $("#changer_icone_paragraph").html("Find out how to change a folder icon on Windows 10/11");
+        $("#watch_it_facebook7").html("Watch it");
+        $("#watch_it_youtube7").html("Watch it");
+
 
         $("#services_id").html("Services");
 
@@ -343,6 +386,47 @@ $(function() {
         $("#databaseskills_id").html("Compétences Base de Données");
         $("#otherskills_id").html("IDE, Outils et autre Technologie utilisée");
 
+        $("#it_content_creat").html("Créateur de contenu informatique");
+        $("#it_content_paragraph").html("Je crée du contenu informatique axé sur l'éducation, offrant des conseils " +
+            "pratiques, résolvant des problèmes réels et guidant les utilisateurs à travers les complexités du monde " +
+            "de la technologie grâce à des explications détaillées et des solutions faciles à suivre.");
+
+        $("#recently_pub").html("Vidéos récemment publiées");
+        $("#laverite_partie1").html("La vérité derrière les mythes technologiques | PARTIE 3");
+        $("#laverite_partie1_pararaph").html("Découvrez la vérité derrière les 7 mythes les plus courants en technologie | Troisième Partie");
+        $("#watch_it_facebook").html("Regardez-le");
+        $("#watch_it_youtube").html("Regardez-le");
+
+        $("#laverite_partie2").html("La vérité derrière les mythes technologiques | PARTIE 2");
+        $("#laverite_partie1_pararaph2").html("Découvrez la vérité derrière les 7 mythes les plus courants en technologie | Deuxième Partie");
+        $("#watch_it_facebook2").html("Regardez-le");
+        $("#watch_it_youtube2").html("Regardez-le");
+
+        $("#laverite_partie3").html("La vérité derrière les mythes technologiques | PARTIE 3");
+        $("#laverite_partie1_pararaph3").html("Découvrez la vérité derrière les 7 mythes les plus courants en technologie | Première Partie");
+        $("#watch_it_facebook3").html("Regardez-le");
+        $("#watch_it_youtube3").html("Regardez-le");
+
+        $("#choix_ord").html("Quel ordinateur choisir selon vos besoins | GUIDE");
+        $("#choix_ord_paragraph").html("Découvrez comment choisir l'ordinateur portable adapté à vos besoins en quelques minutes.");
+        $("#watch_it_facebook4").html("Regardez-le");
+        $("#watch_it_youtube4").html("Regardez-le");
+
+        $("#bloquer_acces").html("Comment bloquer l'acces a un site web sur un PC windows | ASTUCE");
+        $("#bloquer_acces_paragraph").html("Apprenez à bloquer l'accès à n'importe quel site web sur votre PC Windows");
+        $("#watch_it_facebook5").html("Regardez-le");
+        $("#watch_it_youtube5").html("Regardez-le");
+
+        $("#activer_god_mode").html("Comment activer le GOD MODE sur windows 10/11 | ASTUCE");
+        $("#activer_god_mode_paragraph").html("Découvrez comment activer le GOD MODE sur votre PC Windows 10/11.");
+        $("#watch_it_facebook6").html("Regardez-le");
+        $("#watch_it_youtube6").html("Regardez-le");
+
+        $("#changer_icone").html("Comment changer l'icone d'u folder sur windows 10/11 | ASTUCE");
+        $("#changer_icone_paragraph").html("Découvrez comment changer l'icone d'un dossier sur windows 10/11");
+        $("#watch_it_facebook7").html("Regardez-le");
+        $("#watch_it_youtube7").html("Regardez-le");
+
         $("#services_id").html("Services");
         $("#whatIOffer_id").html("<span style=\"color: orange\" >Ce que</span> j'<span>offre</span>");
 
@@ -433,9 +517,9 @@ $(function() {
             "pwojè.");
 
 
-        $("#resume_id").html("Pakou <span style=\"color: #003846\"> Pwofesyonèl</span>");
+        $("#resume_id").html("Pakou <span style=\"color: #113D60\"> Pwofesyonèl</span>");
 
-        $("#educExp_id").html("Fòmasyon &<span style=\"color : #003846\"> Eksperyans </span>");
+        $("#educExp_id").html("Fòmasyon &<span style=\"color : #113D60\"> Eksperyans </span>");
 
         $("#unitech_date").html("<span>2013 - 2017 | Syans Enfòmatik</span>");
         $("#solutions_date").html("<span>2023 - 2024 | Devlopè</span>");
@@ -466,6 +550,47 @@ $(function() {
         $("#programmingskills_id").html("Konpetans Pwogramasyon");
         $("#databaseskills_id").html("Konpetans Baz de Done");
         $("#otherskills_id").html("IDE, Zouti e lòt Teknoloji Itilize");
+
+        $("#it_content_creat").html("Kreyatè kontni enfòmatik");
+        $("#it_content_paragraph").html("Mwen kreye kontni enfòmatik ki konsantre sou edikasyon, ofri konsèy pratik, rezoud pwoblèm " +
+            "mond reyèl la, epi gide itilizatè yo atravè konpleksite mond teknoloji a ak eksplikasyon detaye ak solisyon fasil a swiv.");
+
+        $("#recently_pub").html("Videyo ki fèk pibliye");
+        $("#laverite_partie1").html("Verite ki kache dèyè mit teknoloji | PATI 3");
+        $("#laverite_partie1_pararaph").html("Dekouvri verite ki dèyè 7 mit ki pi komen nan teknoloji | Twazyèm Pati");
+        $("#watch_it_facebook").html("Gade li");
+        $("#watch_it_youtube").html("Gade li");
+
+        $("#laverite_partie2").html("Verite ki kache dèyè mit teknoloji | PATI 2");
+        $("#laverite_partie1_pararaph2").html("Dekouvri verite ki dèyè 7 mit ki pi komen nan teknoloji | Twazyèm Pati");
+        $("#watch_it_facebook2").html("Gade li");
+        $("#watch_it_youtube2").html("Gade li");
+
+        $("#laverite_partie3").html("Verite ki kache dèyè mit teknoloji | PATI 1");
+        $("#laverite_partie1_pararaph3").html("Dekouvri verite ki dèyè 7 mit ki pi komen nan teknoloji | Premye Pati");
+        $("#watch_it_facebook3").html("Gade li");
+        $("#watch_it_youtube3").html("Gade li");
+
+        $("#choix_ord").html("Ki òdinatè pou chwazi selon bezwen ou | GID");
+        $("#choix_ord_paragraph").html("Aprann kijan pou w chwazi bon laptòp pou bezwen ou nan kèk minit.");
+        $("#watch_it_facebook4").html("Gade li");
+        $("#watch_it_youtube4").html("Gade li");
+
+        $("#bloquer_acces").html("Kijan yo bloke aksè yon sit wèb sou yon òdinatè Windows | ASTIS");
+        $("#bloquer_acces_paragraph").html("Aprann kijan pou bloke aksè nenpòt sit wèb sou yon òdinatè Windows");
+        $("#watch_it_facebook5").html("Gade li");
+        $("#watch_it_youtube5").html("Gade li");
+
+        $("#activer_god_mode").html("Kijan yo aktive GOD MODE sou Windows 10/11 | ASTIS");
+        $("#activer_god_mode_paragraph").html("Chache konnen kijan yo aktive GOD MODE sou Windows 10/11.");
+        $("#watch_it_facebook6").html("Gade li");
+        $("#watch_it_youtube6").html("Gade li");
+
+        $("#changer_icone").html("Kijan yo chanje ikon yon dosye sou Windows 10/11 | ASTIS");
+        $("#changer_icone_paragraph").html("Chache konnen kijan yo chanje ikon yon dosye sou Windows 10/11");
+        $("#watch_it_facebook7").html("Gade li");
+        $("#watch_it_youtube7").html("Gade li");
+
         $("#services_id").html("Sèvis");
         $("#whatIOffer_id").html("<span style=\"color: orange\" >Sa</span> Mwen <span>Ofri</span>");
 
@@ -506,12 +631,12 @@ icon.onclick = function (){
     document.body.classList.toggle("dark-theme");
     if(document.body.classList.contains("dark-theme")){
         icon.src = "images/sun2.png";
-        profil.src = "images/fl3.png";
-        about_profil.src = "images/fl3.png"
+        /*profil.src = "images/profil_picture.png";*/
+       /* about_profil.src = "images/profil_picture.png"*/
     }else {
         icon.src = "images/moon.png";
-        profil.src = "images/profilllllll.png";
-        about_profil.src = "images/profilllllll.png";
+       /* profil.src = "images/profil_picture.png";*/
+      /*  about_profil.src = "images/profil_picture.png";*/
     }
 }
 

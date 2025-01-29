@@ -1,9 +1,10 @@
 
 :root{
     --bg-color: #fff;
-    --snd-bg-color:#d5fdf9;
-    --main-color: #003846;
+    --snd-bg-color: #DCE6ED;
+    --main-color: #113D60;
     --text-color: #000;
+    --secondary-color: orange;
 }
 
 
