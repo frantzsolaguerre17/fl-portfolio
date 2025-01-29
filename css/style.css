@@ -3176,6 +3176,7 @@ a.ht:before{
         color: var(--main-color);
         text-align: center;
         margin-top: -60px;
+        font-size: 4.5rem;
     }
 
     .contact{
@@ -3184,6 +3185,14 @@ a.ht:before{
 
     .service{
         margin-bottom: -40px;
+    }
+
+    .service h2{
+        font-size: 4.5rem;
+    }
+
+    .service h3{
+        font-size: 2.2rem;
     }
 
     #skillsparagraph{
@@ -3224,7 +3233,109 @@ a.ht:before{
         transition: 0.3s ease;
     }
 
+    .service .services-container .services-box {
+        flex: 1 1 30rem;
+        background: var(--snd-bg-color);
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 0.3rem solid var(--bg-color);
+        transition: 0.3s ease;
+        max-height: 400px;
+    }
+
+    .service .services-container .services-box p {
+        font-size: 1.8rem;
+        line-height: 1.8;
+        margin: 1rem 0;
+    }
+
+    .service .services-container .services-box h3 {
+        font-size: 2.7rem;
+        margin-bottom: 2rem;
+        word-wrap: break-word;
+    }
+
+    .services-container .services-box:hover{
+        border-color: var(--main-color);
+        transform: scale(1.02);
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+
+    .skills .content_creator .swiper-slide a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+    .skills .swiper .swiper-slide .card-content h2 {
+        font-size: 2.3rem;
+        margin-bottom: 10px;
+        color: #222;
+        margin-top: 1px;
+        max-width:300px
+    }
+
+    .skills .content_creator .swiper-slide{
+        transition: 0.3s ease;
+    }
+
+    .skills .content_creator .swiper-slide:hover {
+        border-color: var(--main-color);
+        transform: scale(1) translateY(-10px);
+    }
+
+
+    .skills .progress-bar{
+        position: relative;
+        width: 100%;
+        height: 4px;
+        background-color: var(--main-color);
+        border-radius: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .skills p{
+        font-size: 20px;
+    }
+
+
+    .row .progress-bar::after {
+        position: absolute;
+        content: attr(value);
+        top: -35px;
+        right: 0;
+        color: var(--text-color);
+        font-size: 18px;
+    }
+
+
+    .skills .progress-line{
+        position: absolute;
+        width: 0%;
+        height: 5px;
+        background-color: var(--secondary-color);
+        border-radius: 15px;
+        top: -1px;
+        animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+    }
+
+    .skills h2{
+        font-size: 4rem;
+    }
 }
+
 
 @media(max-width: 344px) {
 
@@ -3287,6 +3398,7 @@ a.ht:before{
         color: var(--main-color);
         text-align: center;
         margin-top: -60px;
+        font-size: 4rem;
     }
 
     .contact{
@@ -3317,6 +3429,23 @@ a.ht:before{
     .service{
         margin-bottom: -40px;
     }
+
+    .service h2{
+        font-size: 4rem;
+    }
+
+    .service h3{
+        font-size: 2rem
+    }
+
+    .skills h2{
+        font-size: 4rem;
+    }
+
+    .skills .col . p{
+        font-size: 80px;
+    }
+
 
     .resume-section{
         margin-bottom: -50px;
@@ -3365,8 +3494,35 @@ a.ht:before{
         margin-bottom: 10px;
         color: #222;
         margin-top: 1px;
-        width: 100%;
+        max-width:300px
+    }
 
+    .service .services-container .services-box {
+        flex: 1 1 30rem;
+        background: var(--snd-bg-color);
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 0.3rem solid var(--bg-color);
+        transition: 0.3s ease;
+        max-height: 400px;
+    }
+
+    .service .services-container .services-box p {
+        font-size: 1.7rem;
+        line-height: 1.8;
+        margin: 1rem 0;
+    }
+
+    .service .services-container .services-box h3 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        word-wrap: break-word;
+    }
+
+    .services-container .services-box:hover{
+        border-color: var(--main-color);
+        transform: scale(1.02);
     }
 
 
