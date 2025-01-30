@@ -2428,7 +2428,6 @@ a.ht:before{
     }
 
 
-
     .skills .content_creator .cards{
         flex-direction: column;
     }
@@ -2441,9 +2440,116 @@ a.ht:before{
         max-width: 100%;
     }
 
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+
 }
 
 
+@media (max-width: 740px) {
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+}
 
 
 
@@ -2452,6 +2558,58 @@ a.ht:before{
 /*BREAKPOINT 667*/
 @media (max-width: 667px) {
 
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+
 }
 
 
@@ -2459,12 +2617,64 @@ a.ht:before{
 /*BREAKPOINT 640*/
 @media (max-width: 640px) {
 
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+
 }
 
 
 
 /*BREAKPOINT 617PX*/
-@media(max-width: 617px) {
+@media(max-width: 618px) {
 
     html{
         font-size: 50%;
@@ -2494,6 +2704,58 @@ a.ht:before{
         width: 0%;
         height: 100%;
         background-color: var(--secondary-color);
+    }
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
     }
 
 }
