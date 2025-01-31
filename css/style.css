@@ -1868,12 +1868,34 @@ a.ht:before{
 /* BREAKPOINT 1112PX*/
 @media(min-width: 1112px) {
 
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
 }
 
 
 /* BREAKPOINT 1080PX*/
-@media(min-width: 1080px) {
+@media(max-width: 1080px) {
 
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
 }
 
 
@@ -2371,8 +2393,143 @@ a.ht:before{
 /*BREAKPOINT 800px*/
 @media(max-width: 800px) {
 
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+
+    .skills h2{
+        margin-top: -65px;
+    }
+
+    .skills .swiper .swiper-slide .card-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+        color: #222;
+        margin-top: 3px;
+        max-width:300px
+    }
+
+
+    .skills .other-skills{
+        margin-top: 70px;
+    }
+
 }
 
+@media(max-width: 786px) {
+
+    .home{
+        margin-bottom: -50px;
+    }
+
+    #profil_id{
+        margin-bottom: -25px;
+        margin-top: 30px;
+    }
+
+    #about_profil_id{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.5rem;
+        color: var(--text-color);
+        margin-bottom: 10px;
+        margin-top: -60px;
+    }
+
+    .resume-section{
+        margin-bottom: -50px;
+    }
+
+    .skills h2{
+        margin-top: -20px;
+    }
+
+    .content_creator{
+        margin-bottom: -30px;
+    }
+
+    .service{
+        margin-bottom: -40px;
+    }
+
+    .service h2{
+        margin-top: -55px;
+    }
+
+    .contact h2{
+        margin-bottom: 3rem;
+        color: var(--main-color);
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .contact{
+        margin-bottom: -20px;
+    }
+
+    .skills h2{
+        margin-top: -65px;
+    }
+
+    .skills .swiper .swiper-slide .card-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+        color: #222;
+        margin-top: 3px;
+        max-width:300px
+    }
+}
 
 
 /*BREAKPOINT 768PX*/
@@ -2608,6 +2765,18 @@ a.ht:before{
 
     .contact{
         margin-bottom: -20px;
+    }
+
+    .skills .content_creator .swiper-slide a {
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
     }
 
 }
@@ -2851,6 +3020,46 @@ a.ht:before{
     .about{
         margin-bottom: -25px;
     }
+
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 6px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+    .skills .swiper .swiper-slide .card-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+        color: #222;
+        margin-top: 3px;
+        max-width:300px
+    }
+
+
+    .swiper-slide img {
+        width: 100%;
+        height: 170px;
+
+    }
+
+    .card-content {
+        padding: 3px;
+        text-align: center;
+    }
+
+    .skills .swiper .swiper-slide .card-content p {
+        font-size: 1.7rem;
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+
 }
 
 
@@ -3179,6 +3388,17 @@ a.ht:before{
         margin-bottom: -25px;
     }
 
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
 
 }
 
@@ -3244,6 +3464,38 @@ a.ht:before{
         margin-bottom: -25px;
     }
 
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 5px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .swiper-slide img {
+        width: 100%;
+        height: 140px;
+
+    }
+
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
+
 }
 
 
@@ -3307,6 +3559,19 @@ a.ht:before{
         margin-bottom: -25px;
     }
 
+
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
 }
 
 
@@ -3368,6 +3633,19 @@ a.ht:before{
     #profil_id{
         margin-bottom: -25px;
         margin-top: 30px;
+    }
+
+
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
     }
 
 }
@@ -3596,6 +3874,20 @@ a.ht:before{
     .skills h2{
         font-size: 4rem;
     }
+
+
+    .skills .content_creator .swiper-slide .card-content a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #fff;
+        background-color: var(--main-color);
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+    }
+
 }
 
 
@@ -3739,12 +4031,12 @@ a.ht:before{
     }
 
 
-    .skills .content_creator .swiper-slide a {
+    .skills .content_creator .swiper-slide .card-content a {
         text-decoration: none;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         color: #fff;
         background-color: var(--main-color);
-        padding: 9px 10px;
+        padding: 9px 15px;
         border-radius: 5px;
         margin: 5px;
         display: inline-block;
