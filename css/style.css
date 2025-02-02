@@ -2572,7 +2572,7 @@ a.ht:before{
     }
 
     .about{
-        margin-bottom: -20px;
+        margin-bottom: -100px;
     }
 
 }
@@ -3330,6 +3330,11 @@ a.ht:before{
         transition: background-color 0.3s ease;
     }
 
+
+    .other-skills h2{
+        margin-top: -70px;
+    }
+
 }
 
 
@@ -3497,8 +3502,9 @@ a.ht:before{
         margin-top: -60px;
     }
 
-    .contact{
-        margin-bottom: -20px;
+
+    .other-skills h2{
+        margin-top: -70px;
     }
 }
 
@@ -3618,6 +3624,9 @@ a.ht:before{
         margin-bottom: 15px;
     }
 
+    .other-skills h2{
+        margin-top: -77px;
+    }
 
 }
 
@@ -3901,7 +3910,7 @@ a.ht:before{
     }
 
     .contact{
-        margin-bottom: -90px;
+        margin-bottom: -17px;
     }
 
 
@@ -3953,14 +3962,18 @@ a.ht:before{
 
     .skills .content_creator .swiper-slide .card-content a {
         text-decoration: none;
-        font-size: 1.8rem;
-        color: #fff;
+        font-size: 1.6rem;
+        color:#fff;
         background-color: var(--main-color);
-        padding: 9px 15px;
+        padding: 9px 8px;
         border-radius: 5px;
         margin: 5px;
         display: inline-block;
         transition: background-color 0.3s ease;
+    }
+
+    .other-skills h2{
+        margin-top: -70px;
     }
 
 }
@@ -4058,11 +4071,9 @@ a.ht:before{
         transition: background-color 0.3s ease;
     }
 
-
     .other-skills h2{
         margin-top: -70px;
     }
-
 
 }
 
@@ -4138,6 +4149,10 @@ a.ht:before{
         margin: 5px;
         display: inline-block;
         transition: background-color 0.3s ease;
+    }
+
+    .other-skills h2{
+        margin-top: -70px;
     }
 
 }
