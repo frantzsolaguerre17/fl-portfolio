@@ -258,8 +258,8 @@ $(function() {
         $("#watch_it_facebook6").html("Watch it");
         $("#watch_it_youtube6").html("Watch it");
 
-        $("#changer_icone").html("How to change the folder icon on windows 10/11 | TRICK");
-        $("#changer_icone_paragraph").html("Find out how to change a folder icon on Windows 10/11");
+        $("#changer_icone").html("The most common traps on social media and how to avoid them");
+        $("#changer_icone_paragraph").html("Find out how to avoid traps on social media");
         $("#watch_it_facebook7").html("Watch it");
         $("#watch_it_youtube7").html("Watch it");
 
@@ -422,8 +422,8 @@ $(function() {
         $("#watch_it_facebook6").html("Regardez-le");
         $("#watch_it_youtube6").html("Regardez-le");
 
-        $("#changer_icone").html("Comment changer l'icone d'u folder sur windows 10/11 | ASTUCE");
-        $("#changer_icone_paragraph").html("Découvrez comment changer l'icone d'un dossier sur windows 10/11");
+        $("#changer_icone").html("Les pièges les plus courants sur les réseaux sociaux et comment les éviter");
+        $("#changer_icone_paragraph").html("Découvrez comment éviter les pièges sur les réseaux sociaux");
         $("#watch_it_facebook7").html("Regardez-le");
         $("#watch_it_youtube7").html("Regardez-le");
 
@@ -586,8 +586,8 @@ $(function() {
         $("#watch_it_facebook6").html("Gade li");
         $("#watch_it_youtube6").html("Gade li");
 
-        $("#changer_icone").html("Kijan yo chanje ikon yon dosye sou Windows 10/11 | ASTIS");
-        $("#changer_icone_paragraph").html("Chache konnen kijan yo chanje ikon yon dosye sou Windows 10/11");
+        $("#changer_icone").html("Pyèj ki pi plis sou rezo sosyo yo ak kòman pou evite yo");
+        $("#changer_icone_paragraph").html("Dekouvri kòman pou ou evite pyèj sou rezo sosyo yo");
         $("#watch_it_facebook7").html("Gade li");
         $("#watch_it_youtube7").html("Gade li");
 
