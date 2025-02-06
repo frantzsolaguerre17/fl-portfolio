@@ -106,7 +106,7 @@ section{
 
 .logo{
     font-size: 3rem;
-    color: var(--secondary-color) !important;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s ease;
