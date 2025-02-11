@@ -253,13 +253,13 @@ $(function() {
         $("#watch_it_facebook5").html("Watch it");
         $("#watch_it_youtube5").html("Watch it");
 
-        $("#activer_god_mode").html("How to activate GOD MODE on windows 10/11 | TRICK");
-        $("#activer_god_mode_paragraph").html(" Find out how to activate GOD MODE on your Windows 10/11 PC.");
+        $("#activer_god_mode").html("These apps you should have on your smartphone.");
+        $("#activer_god_mode_paragraph").html("Find out The Best Apps You’ll Regret Not Discovering Sooner");
         $("#watch_it_facebook6").html("Watch it");
         $("#watch_it_youtube6").html("Watch it");
 
         $("#changer_icone").html("The most common traps on social media and how to avoid them");
-        $("#changer_icone_paragraph").html("Find out how to avoid traps on social media");
+        $("#changer_icone_paragraph").html(" You will Find out how to avoid traps and swindle on social media");
         $("#watch_it_facebook7").html("Watch it");
         $("#watch_it_youtube7").html("Watch it");
 
@@ -417,8 +417,8 @@ $(function() {
         $("#watch_it_facebook5").html("Regardez-le");
         $("#watch_it_youtube5").html("Regardez-le");
 
-        $("#activer_god_mode").html("Comment activer le GOD MODE sur windows 10/11 | ASTUCE");
-        $("#activer_god_mode_paragraph").html("Découvrez comment activer le GOD MODE sur votre PC Windows 10/11.");
+        $("#activer_god_mode").html("Ces applications que tu devrais avoir sur ton smartphone.");
+        $("#activer_god_mode_paragraph").html("Les Applications Que Tu Regretteras de Ne Pas Avoir Découvertes Plus Tôt");
         $("#watch_it_facebook6").html("Regardez-le");
         $("#watch_it_youtube6").html("Regardez-le");
 
@@ -581,8 +581,8 @@ $(function() {
         $("#watch_it_facebook5").html("Gade li");
         $("#watch_it_youtube5").html("Gade li");
 
-        $("#activer_god_mode").html("Kijan yo aktive GOD MODE sou Windows 10/11 | ASTIS");
-        $("#activer_god_mode_paragraph").html("Chache konnen kijan yo aktive GOD MODE sou Windows 10/11.");
+        $("#activer_god_mode").html("Aplikasyon sa yo ou ta dwe genyen sou telefòn ou");
+        $("#activer_god_mode_paragraph").html("Aplikasyon sa yo Ke wap regrèt Ou Pat konnen Pi Bonè");
         $("#watch_it_facebook6").html("Gade li");
         $("#watch_it_youtube6").html("Gade li");
 
