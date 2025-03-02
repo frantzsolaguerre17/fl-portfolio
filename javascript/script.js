@@ -243,13 +243,13 @@ $(function() {
         $("#watch_it_facebook3").html("Watch it");
         $("#watch_it_youtube3").html("Watch it");
 
-        $("#choix_ord").html("Which computer for your needs | GUIDE");
-        $("#choix_ord_paragraph").html("Find out how to choose the right laptop for your needs in just a few minutes.");
+        $("#choix_ord").html("Don't make these mistakes before buying your laptop");
+        $("#choix_ord_paragraph").html("Find out mistakes you have to avoid before buying a laptop");
         $("#watch_it_facebook4").html("Watch it");
         $("#watch_it_youtube4").html("Watch it");
 
-        $("#bloquer_acces").html("How to block access to a website on a Windows PC | TRICK");
-        $("#bloquer_acces_paragraph").html("Learn how to block access to any website on your Windows PC");
+        $("#bloquer_acces").html("Come learn what you don’t know about these technological things");
+        $("#bloquer_acces_paragraph").html("These things you often see on your phones and the internet without really knowing what they are");
         $("#watch_it_facebook5").html("Watch it");
         $("#watch_it_youtube5").html("Watch it");
 
@@ -407,13 +407,13 @@ $(function() {
         $("#watch_it_facebook3").html("Regardez-le");
         $("#watch_it_youtube3").html("Regardez-le");
 
-        $("#choix_ord").html("Quel ordinateur choisir selon vos besoins | GUIDE");
-        $("#choix_ord_paragraph").html("Découvrez comment choisir l'ordinateur portable adapté à vos besoins en quelques minutes.");
+        $("#choix_ord").html("Ne fais pas ces erreurs avant d’acheter ton ordinateur portable");
+        $("#choix_ord_paragraph").html("Découvrez les erreurs à éviter avant d’acheter un PC portable.");
         $("#watch_it_facebook4").html("Regardez-le");
         $("#watch_it_youtube4").html("Regardez-le");
 
-        $("#bloquer_acces").html("Comment bloquer l'acces a un site web sur un PC windows | ASTUCE");
-        $("#bloquer_acces_paragraph").html("Apprenez à bloquer l'accès à n'importe quel site web sur votre PC Windows");
+        $("#bloquer_acces").html("Venez apprendre ce que vous ne savez pas sur ces choses technologiques");
+        $("#bloquer_acces_paragraph").html("Ces choses que vous voyez souvent sur vos téléphones et sur le net sans vraiment savoir ce qu’elles sont.");
         $("#watch_it_facebook5").html("Regardez-le");
         $("#watch_it_youtube5").html("Regardez-le");
 
@@ -571,13 +571,13 @@ $(function() {
         $("#watch_it_facebook3").html("Gade li");
         $("#watch_it_youtube3").html("Gade li");
 
-        $("#choix_ord").html("Ki òdinatè pou chwazi selon bezwen ou | GID");
-        $("#choix_ord_paragraph").html("Aprann kijan pou w chwazi bon laptòp pou bezwen ou nan kèk minit.");
+        $("#choix_ord").html("Pa fè erè sa yo avan ou achte yon laptop.");
+        $("#choix_ord_paragraph").html("Erè sa yo pou ou evite avan ou achte yon laptop");
         $("#watch_it_facebook4").html("Gade li");
         $("#watch_it_youtube4").html("Gade li");
 
-        $("#bloquer_acces").html("Kijan yo bloke aksè yon sit wèb sou yon òdinatè Windows | ASTIS");
-        $("#bloquer_acces_paragraph").html("Aprann kijan pou bloke aksè nenpòt sit wèb sou yon òdinatè Windows");
+        $("#bloquer_acces").html("Vini aprann sa ou pa konnen sou bagay teknolojik sa yo");
+        $("#bloquer_acces_paragraph").html("Bagay sa yo ou souvan wè sou telefòn ou ak sou entènèt la san w pa vrèman konnen");
         $("#watch_it_facebook5").html("Gade li");
         $("#watch_it_youtube5").html("Gade li");
 
