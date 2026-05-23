@@ -23,7 +23,7 @@
 :root{
     --bg-color: #fff;
     --snd-bg-color: #DCE6ED;
-    --main-color: #113D60;
+    --main-color: #000000;
     --text-color: #000;
     --secondary-color: orange;
 }
@@ -187,14 +187,15 @@ section{
     color: var(--secondary-color);
 }
 
-
 .home-img img{
     width: 25vw;
-    border-radius:55%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
+    transition: 0.4s ease;
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
-    transition: 0.4s ease;
 }
 
 .home-img img:hover{
@@ -356,6 +357,8 @@ span{
 
 .about-img img{
     width: 25vw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     /*
     border: 2px solid var(--main-color);
     */
