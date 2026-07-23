@@ -67,6 +67,11 @@ section{
     padding: 1.1rem 40px;
     backdrop-filter: blur(10px);
     transition: all 0.5s ease;
+
+     background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 140, 0, 0.2);
 }
 
 
@@ -147,7 +152,8 @@ section{
     width: 0;
     height: 2px;
     background-color: var(--secondary-color);
-    transition: width 0.4s ease;
+    transition: .4s;
+
 }
 
 
@@ -322,7 +328,7 @@ span{
     margin: 5px 0.7rem;
     border-radius: 1rem;
     text-decoration: none;
-    color: var(--text-color);
+    color: black;
     font-weight: 500;
     box-shadow: 0 0 1rem black;
     font-size: 1.5rem;
@@ -687,139 +693,162 @@ span{
 
 
 /*******************RESUME********************/
-.resume-section {
-    background-color: var(--bg-color);
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
+.resume {
+    padding: 80px 10%;
 }
 
 
-.resume-header .heading{
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 6rem;
-}
-
-
-.resume h3{
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    margin-top: 2px;
-    text-align: center;
+.resume p {
+    font-size: 17px;
 }
 
 
 .resume-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 
-.resume-header h3 {
-    font-size: 2.5rem;
-}
+.resume-container {
 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
 
-.resume-header h2 {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    margin-bottom: 10px;
-}
-
-.resume-header p {
-    font-size: 1.5rem;
-    color: var(--text-color);
-}
-
-
-.timeline {
-    position: relative;
-    padding-left: 50px;
-}
-
-
-/*
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 25px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: var(--snd-bg-color);
-}
-*/
-
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: 19px;
-    top: 42px;
-    bottom: 0;
-    width: 2px;
-    background: var(--secondary-color);
 }
 
 
 
-.timeline-item .icon {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 35px;
-    height: 35px;
-    background: var(--secondary-color);
-    color: var(--bg-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
+.resume-box {
 
-.timeline-item .content {
-    margin-left: 100px;
-}
-
-.timeline-item h3 {
-    font-size: 2rem;
-    color: var(--secondary-color);
-}
-
-.timeline-item h4 > span{
-    font-size: 1.2rem;
-    color: var(--bg-color);
-    background: var(--secondary-color);
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
     border-radius: 15px;
-    padding: 0.25rem 0.7rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
+    border: 1px solid rgba(255,255,255,0.1);
 
-.timeline-item h4{
-    margin-bottom: 10px;
-    font-weight: bolder;
 }
 
 
-.timeline-item p {
-    margin-top: 10px;
-    font-size: 1.7rem;
-    color: var(--text-color);
-    text-align: left;
-    font-weight: inherit;
+
+.resume-box h3 {
+
+    font-size: 25px;
+    margin-bottom: 30px;
+
 }
 
+
+
+.resume-item {
+
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 35px;
+    border-left: 3px solid orange;
+
+}
+
+
+
+.resume-date {
+
+    color: orange;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+
+
+.resume-item h4 {
+
+    font-size: 22px;
+    margin: 10px 0;
+
+}
+
+
+
+.resume-item h5 {
+
+    font-size: 16px;
+    color: #aaa;
+
+}
+
+
+
+.resume-item p {
+
+    line-height: 1.7;
+    font-size: 13px;
+
+}
+
+
+
+
+.document-preview {
+
+    margin-top: 20px;
+
+}
+
+
+
+.document-preview img {
+
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    border:1px solid #555;
+
+}
+
+
+
+.document-buttons {
+
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+
+}
+
+
+
+.btn-document {
+
+    padding:10px 15px;
+    background:orange;
+    color:#fff;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+
+
+.btn-document:hover {
+
+    transform:translateY(-3px);
+    background:#ff8c00;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+    .resume-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
 
 
 /*******************SKILLS********************/
@@ -927,7 +956,7 @@ span{
     position: relative;
     width: 100%;
     height: 5px;
-    background-color:white;
+    background-color:white !important;
     border-radius: 15px;
     margin-bottom: 20px;
 
@@ -942,12 +971,27 @@ span{
     font-size: 18px;
 }
 
+.progress-bar{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+}
+
+.progress-line{
+    width: 0%;
+    height: 100%;
+    background: var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+}
 
 .skills .progress-line{
     position: absolute;
     width: 0%;
     height: 7px;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
+    background: white;
     border-radius: 15px;
     top: -1px;
     animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
@@ -1992,8 +2036,11 @@ a.ht:before{
         align-items: center;
         justify-content: space-between;
         padding: 2rem 40px;
-        background:var(--secondary-color);
-        backdrop-filter: blur(10px);
+
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 140, 0, 0.2);
         transition: all 0.5s ease;
     }
 
@@ -4661,7 +4708,7 @@ a.ht:before{
         font-size: 4rem;
     }
 
-    .skills .col . p{
+    .skills .col .p{
         font-size: 80px;
     }
 
@@ -4751,13 +4798,11 @@ a.ht:before{
 }
 
 
-/* Navbar noire sur tous les appareils */
-.header{
-    background: #000 !important;
-}
 
 .navbar{
-    background: #000 !important;
+   background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar a{

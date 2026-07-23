@@ -1,8 +1,8 @@
 
 :root{
     --bg-color: #fff;
-    --snd-bg-color: #DCE6ED;
-    --main-color: #113D60;
+    --snd-bg-color: hsl(205, 32%, 90%);
+    --main-color: #000000;
     --text-color: #000;
     --secondary-color: orange;
 }
